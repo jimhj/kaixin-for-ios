@@ -77,6 +77,9 @@
 		BF1C15BB1B4187BE008C7C6A /* KaiXin-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				BF3D844A1B52680600CBDFF4 /* Models */,
+				BF3D84491B5267F600CBDFF4 /* Libraries */,
+				BF3D84481B5267C900CBDFF4 /* Controllers */,
 				BF1C15BE1B4187BF008C7C6A /* AppDelegate.swift */,
 				BF1C15C01B4187BF008C7C6A /* ViewController.swift */,
 				BF1C15C21B4187BF008C7C6A /* Main.storyboard */,
@@ -110,6 +113,27 @@
 				BF1C15D31B4187BF008C7C6A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF3D84481B5267C900CBDFF4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF3D84491B5267F600CBDFF4 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		BF3D844A1B52680600CBDFF4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,6 +433,7 @@
 				BF1C15DA1B4187BF008C7C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF1C15DB1B4187BF008C7C6A /* Build configuration list for PBXNativeTarget "KaiXin-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				BF1C15DD1B4187BF008C7C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
